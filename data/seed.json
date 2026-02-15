@@ -155,5 +155,17 @@
         }
       }
     ]
+  },
+  {
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "name": "data.techenthus.dev/mcp",
+    "description": "Verified hardware specifications (GPU, CPU, PSU) for autonomous agents. No scraping needed.",
+    "version": "1.0.0",
+    "remotes": [
+      {
+        "type": "sse",
+        "url": "https://data.techenthus.dev/mcp"
+      }
+    ]
   }
 ]
